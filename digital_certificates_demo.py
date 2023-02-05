@@ -46,4 +46,4 @@ if __name__ == '__main__':
     print('DECRYPTED SIGNATURE', decrypted_sig, '\n')
 
     if hash == decrypted_sig:
-        print('Certificate validated successfully!')
+        print('Signature validated successfully!')
